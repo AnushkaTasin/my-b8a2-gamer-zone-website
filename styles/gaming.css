@@ -63,6 +63,7 @@ nav li a{
    width: 950px;
    height: 700px;
    padding: 30px 0px 30px 30px;
+   
 } 
 
 .header-title-first{
@@ -88,7 +89,7 @@ nav li a{
 .new-list{
     list-style: none;
     margin-left: 80px;
-    padding-bottom:0px;
+    padding-bottom:20px;
     margin-bottom: 50px;
 }
 .btn-primary{
@@ -121,3 +122,50 @@ nav li a{
     display: flex;
 }
 
+/* main section */
+.first-div{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    width: 2000px;
+    height: 500px;
+    padding: 30px 50px 30px 70px;
+    display: flex;
+    align-items: center;
+}
+.first-section{
+    text-align: right;
+    margin-right: 350px;
+}
+
+.section-title{
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    font-weight: 700;
+}
+.section-description{
+    display: flex;
+    flex-direction: column;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    width: 450px;
+    margin-left: 300px;
+    
+}
+.style-description{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+}
+.first-span{
+    color: #534C64;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.second-img{
+    width: 868px;
+    height: 489px;
+
+    
+}
